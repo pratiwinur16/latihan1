@@ -64,3 +64,20 @@ console.log(numberLetters('j1nk4z4m4')); // jinkazama
 console.log(numberLetters('s7m3t4l')); // sumetal
 console.log(numberLetters('m04m3t4l')); // moametal
 console.log(numberLetters('')); 
+
+
+
+//cara2//
+function numberLetters(str){
+   
+      str= str.split('1').join('i')
+      str= str.split('4').join('a')
+      str= str.split('3').join('e')
+      str= str.split('7').join('u')
+      str= str.split('0').join('o')
+      
+
+
+	return str
+
+}
